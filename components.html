@@ -4,14 +4,48 @@
     <title>Components demo</title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
   </head>
 
   <body>
       <h1 class="text-center">Product Card</h1>
       
       <div class="container">
-        <h2>Build your product card below 👇</h2>        
-      </div>
+      <!--   <h2>img-product</h2>
+        <img class="img-product" src="https://picsum.photos/200" alt="">
+        <img class="img-product img-product-large" src="https://picsum.photos/200" alt="">
+      -->
 
+        <div class="card-container">
+          <div class="card-hero">
+            <div class="card-hero-img" style="background-image:url(https://picsum.photos/200)">
+              <i class="fas fa-heart"></i>
+            </div>
+
+            <div class="card-rating">
+              <div class="card-stars">
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star checked"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+              <h1>Sweet Orange Oil</h1>
+              <p>
+                lorem ipsum <a href="#">see more!</a>
+              </p>
+              <a href="">Buy now</a>
+            </div>
+          </div>
+
+          <img class="img-product img-product-large" src="https://picsum.photos/200" alt="">
+          
+          <div class="card-secondary">
+            <img class="img-product" src="https://picsum.photos/200" alt="">
+            <img class="img-product" src="https://picsum.photos/200" alt="">
+            <img class="img-product" src="https://picsum.photos/200" alt="">
+          </div>
+        </div>
+      </div>
   </body>
 </html>

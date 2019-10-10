@@ -1,0 +1,44 @@
+.card-container {
+  background-color: white;
+  width: 500px;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.card-hero {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.card-hero .card-hero-img {
+  width: 40%;
+}
+
+.card-stars .fa-star.checked {
+  color: yellow
+}
+.card-stars .fa-star {
+  color: red;
+  /*text-shadow: 1px 1px 100px black;*/
+}
+
+.card-hero-img .fa-heart {
+  color: hotpink;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+}
+
+.card-secondary {
+  display: flex;
+  justify-content: space-between;
+  margin: 16px 0;
+}
+
+.card-secondary .img-product {
+  width: 33%;
+  height: 75px;
+}
+
